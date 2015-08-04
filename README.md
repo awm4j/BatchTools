@@ -12,3 +12,9 @@ Waits for a process to close before executing a command. appwait.bat [process] [
 
 Example:
 > appwait.bat iexplore.exe "time /t"
+
+### cntappkill.bat
+Exits when the process closes or when the runtime countdown ends. cntappkill.bat [process] [runtime] [waittime]
+
+Example:
+> cntappkill.bat iexplore.exe 10 5
