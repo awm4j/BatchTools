@@ -20,7 +20,7 @@ echo.
 echo  appwait.bat [process] [command]
 echo.
 echo  Example:
-echo     appwait.bat iexplore.exe "shutdown -h"
+echo     appwait.bat iexplore.exe "time /t"
 echo.
 goto :eof
 
